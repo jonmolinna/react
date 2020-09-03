@@ -1,0 +1,12 @@
+npm install firebase
+npm install bootswatch
+npm install --save react-toastify => para tener mensajes de notificaciones
+
+Para obtener dato
+----------------------------------
+const getLinks = async () => {
+        const querySnapshot = await db.collection('links').get();
+        querySnapshot.forEach(doc => {
+            console.log(doc.data())
+        })
+    }
