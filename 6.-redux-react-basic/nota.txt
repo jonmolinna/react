@@ -1,0 +1,5 @@
+npm install redux
+npm install react-redux
+npm install redux-devtools => se visualize las herramientas de desarrollo
+npm install redux-thunk => promesas
+npm install axios
